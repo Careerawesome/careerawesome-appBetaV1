@@ -1,0 +1,47 @@
+//RESUME FOR LOCAL STORAGE ONE TIME USERS
+export const SAVE_BASIC_DATA = 'SAVE_BASIC_DATA';
+export const SAVE_WORK_DATA = 'SAVE_WORK_DATA';
+export const SAVE_EDUCATION_DATA = 'SAVE_EDUCATION_DATA';
+export const SAVE_SKILL_DATA = 'SAVE_SKILL_DATA';
+export const SAVE_AWARD_DATA = 'SAVE_AWARD_DATA';
+export const SAVE_EXTRAS_DATA = 'SAVE_EXTRAS_DATA';
+
+// Testing This 
+export const RESUME_FORM_UPDATE = 'RESUME_FORM_UPDATE';
+export const ON_INPUT = 'ON_INPUT';
+//RESUME FOR SIGNED IN USERS AND PAID SUBSCRIBERS
+
+export const SAVE_USER_DATA = 'SAVE_USER_DATA';
+export const GET_USER_DATA = 'GET_USER_DATA';
+
+
+//THE OFFICAIL TYPES FOR THE RESUME PLATFORM
+export const SET_RESUME_DATA = 'SET_RESUME_DATA'
+export const ON_RESUME_INPUT = 'ON_RESUME_INPUT';
+export const PREVIOUS_STEP = 'PREVIOUS_STEP';
+export const NEXT_STEP = "NEXT_STEP";
+export const GO_TO_EDIT_PAGE = "GO_TO_EDIT_PAGE";
+export const UPDATE_DATA = 'UPDATE_DATA';
+
+
+// updateTypes for Each  Steps 
+export const UPDATE_BASIC = 'UPDATE_BASIC';
+export const UPDATE_WORK = 'UPDATE_WORK';
+export const UPDATE_EDUCATION = 'UPDATE_EDUCATION';
+export const UPDATE_SKILLS = 'UPDATE_SKILLS';
+export const UPDATE_EXTRAS = 'UPDATE_EXTRAS';
+export const UPDATE_AWARDS = 'UPDATE_AWARDS';
+export const GO_TO_STEP = 'GO_TO_STEP';
+export const LOADING_UI = 'LOADING_UI';
+export const STOP_LOADING = 'STOP_LOADING';
+
+// Authentication Types 
+// export const LOGIN_USER = 'LOGIN_USER';
+// export const REGISTER_USER = 'REGISTER_USER';
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED';
+export const SET_USER = 'SET_USER';
+export const STOP_LOADING_USER = "STOP_LOADING_USER"
+export const SET_ERRORS = 'SET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const LOADING_USER = 'LOADING_USER';
