@@ -22,6 +22,7 @@ export const loginUser = (loginPayload, path) => (dispatch) =>{
         dispatch({type:CLEAR_ERRORS})
     })
     .catch((err)=>{
+        console.log(err)
         dispatch({
             type:SET_ERRORS,
             payload:err.data
