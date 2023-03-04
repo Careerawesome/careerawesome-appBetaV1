@@ -12,7 +12,7 @@ import {
 const initialState = {
   authenticated: false,
   loading: false,
-  credentials: {},
+  credentials: false,
   errors: null,
   //This is the Document for Authenticated users
 };

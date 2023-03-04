@@ -8,14 +8,14 @@ interface AuthState{
 }
 function AuthLoader({loading, authenticated, credentials}:AuthState) {
     useEffect(() => {
-        if(!loading && !authenticated && Object.keys(credentials).length === 0){
-            
+        if(!loading && !authenticated && credentials){
+            console.log("Routing to login")
             router.push('/login')
         }
     }, [loading, authenticated])
     
     const router = useRouter()
-    if(loading && !authenticated && Object.keys(credentials).length === 0){
+    if(loading && !authenticated && !credentials){
         // show a good loading animation for the website 
         return (<><h1>Loading ....</h1></>)   
     }

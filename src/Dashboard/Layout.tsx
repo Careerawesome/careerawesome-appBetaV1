@@ -99,7 +99,7 @@ function Layout({
             ml: { sm: `${drawerWidth}px` },
           }}
         >
-          <Toolbar className={classes.lowToolBar}>
+          <Toolbar >
             <IconButton
               color="inherit"
               aria-label="open drawer"
