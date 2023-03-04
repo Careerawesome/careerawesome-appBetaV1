@@ -7,7 +7,6 @@
 // }
 
 import {Fragment} from 'react';
-import { SessionProvider } from "next-auth/react"
 import App  from 'next/app';
 import '../styles/globals.css';
 import { Provider } from "react-redux";
